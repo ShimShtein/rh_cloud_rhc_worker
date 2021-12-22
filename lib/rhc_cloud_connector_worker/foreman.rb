@@ -11,7 +11,7 @@ module RhcCloudConnectorWorker
       require_ssl: Settings.foreman.require_ssl,
       ssl_ca_file: Settings.foreman.ssl_ca_file,
       token: Settings.foreman.token,
-      user: Settings.foreman.user
+      user: Settings.foreman.username
     )
       @address = address
       @require_ssl = require_ssl

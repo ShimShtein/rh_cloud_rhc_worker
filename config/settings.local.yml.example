@@ -1,5 +1,5 @@
 ---
 foreman:
   token: foo
-  user: bar
+  username: bar
   require_ssl: false
