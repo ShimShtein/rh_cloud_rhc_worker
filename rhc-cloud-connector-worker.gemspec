@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'config'
   spec.add_dependency 'grpc'
+  spec.add_dependency 'rest-client'
 
   spec.add_development_dependency 'grpc-tools'
   spec.add_development_dependency 'minitest', '~> 5.0'
@@ -41,6 +42,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '~> 1.7'
   spec.add_development_dependency 'rubocop-minitest'
   spec.add_development_dependency 'rubocop-rake'
+  spec.add_development_dependency 'webmock'
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html

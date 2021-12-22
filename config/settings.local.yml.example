@@ -1,0 +1,5 @@
+---
+foreman:
+  token: foo
+  username: bar
+  require_ssl: false
