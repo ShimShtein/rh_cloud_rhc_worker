@@ -8,9 +8,9 @@
     "playbook_run_name": "Human-readable playbook run name",
     "playbook_run_url": "https://console.redhat.com/insights/remediations/1234",
     "sat_id": "aa3b1faa-56f3-4d14-8258-615d11e20060",
-    "sat_org_id": "12345",
+    "sat_org_id": "1",
     "initiator_user_id": "4efca34c6d9ae05ef7c3d7a7424e6370d198159a841ae005084888a9a4529e27",
-    "hosts": "01.example.com,02.example.com",
+    "hosts": "host1.example.com,host2.example.com",
     "response_interval": "30",
     "response_full": "false"
   },
@@ -18,5 +18,5 @@
   "sent": "2021-12-09T10:14:14.592483378+02:00",
   "type": "data",
   "version": 1,
-  "content": "https://cloud.redhat.com/api/v1/remediations/1234/playbook"
+  "content": "https://cloud.redhat.com/api/remediations/v1/remediations/12345678/playbook"
 }

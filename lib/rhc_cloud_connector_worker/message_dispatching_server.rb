@@ -9,7 +9,7 @@ module RhcCloudConnectorWorker
     def send(data, _request)
       GRPC.logger.debug("Received message: #{data}")
 
-      Foreman.new.pass(data.metadata)
+      Foreman.new.pass(data)
 
       # Respond with a receipt
       Yggdrasil::Receipt.new

@@ -20,8 +20,8 @@ module RhcCloudConnectorWorker
       @user = user
     end
 
-    def pass(metadata)
-      connection['rh_cloud/cloud_request'].post(metadata.to_json, content_type: :json)
+    def pass(data)
+      connection['rh_cloud/cloud_request'].post(data.to_json, content_type: :json)
     end
 
     private
